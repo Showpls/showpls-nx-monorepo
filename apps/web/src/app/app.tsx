@@ -1,10 +1,11 @@
 // Uncomment this line to use CSS modules
 // import styles from './app.module.scss';
 import NxWelcome from './nx-welcome';
-
-import { Route, Routes, Link } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
+import { ShareTest } from '@share';
 
 export function App() {
+  console.log(ShareTest);
   return (
     <div>
       <NxWelcome title="web" />

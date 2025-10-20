@@ -1,3 +1,8 @@
 {
-  "singleQuote": true
+  "plugins": [],
+  "semi": false,
+  "tailwindPreserveDuplicates": false,
+  "organizeImportsSkipDestructiveCodeActions": true,
+  "printWidth": 120,
+  "bracketSameLine": false
 }
